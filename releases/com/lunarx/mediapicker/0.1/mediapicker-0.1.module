@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.lunarx",
+    "module": "mediapicker",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mediapicker-0.1.aar",
+          "url": "mediapicker-0.1.aar",
+          "size": 6867,
+          "sha512": "60939abd5017156ad835c52acf779b11068e1989e0961116061f6a1c538f4fe3189388654878bf47d36354b0bb4fde0d45cbb561f004733409a1d4aad364d994",
+          "sha256": "fd0338de0ba83bfa134b2a10ac5d3d64e2c08fed34633a7d187df99ec002424b",
+          "sha1": "5349d91fd7b2e3e18036866028e685bcd01b27b5",
+          "md5": "af78cd4a18e1612cef1fe5c8cc91cf37"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mediapicker-0.1.aar",
+          "url": "mediapicker-0.1.aar",
+          "size": 6867,
+          "sha512": "60939abd5017156ad835c52acf779b11068e1989e0961116061f6a1c538f4fe3189388654878bf47d36354b0bb4fde0d45cbb561f004733409a1d4aad364d994",
+          "sha256": "fd0338de0ba83bfa134b2a10ac5d3d64e2c08fed34633a7d187df99ec002424b",
+          "sha1": "5349d91fd7b2e3e18036866028e685bcd01b27b5",
+          "md5": "af78cd4a18e1612cef1fe5c8cc91cf37"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "mediapicker-0.1-sources.jar",
+          "url": "mediapicker-0.1-sources.jar",
+          "size": 2867,
+          "sha512": "7fb57f747b90440a69e91bc1bf2cb7a87ac6224e27012dcc7f27ed48bf3bf87bba5e1b86ce6cddd2b3832af1d683de490fb888d4409df4a199dda50761fdd75e",
+          "sha256": "096a69712866b41aed1a407f15d9a39f766906047a7368d37cce9be5190bc753",
+          "sha1": "b7c50fe3498d02e253e6325475cbce5ab6e230dc",
+          "md5": "d76bba6fa96a8ce7b1ab3efa22a8174e"
+        }
+      ]
+    }
+  ]
+}
